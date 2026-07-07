@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.1, pytest-9.1.1, pluggy-1.6.0 -- /workspaces/P3-agentic-policy-derivation/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/P3-agentic-policy-derivation
+configfile: pyproject.toml
+plugins: cov-7.1.0, anyio-4.14.1, asyncio-1.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 2 items
+
+tests/stress/test_long_running_memory_check.py::TestLongRunningMemoryCheck::test_sustained_check_action_calls_memory_trend 
